@@ -2,14 +2,14 @@ version: "3"
 services:
   server:
     deploy:
-      replicas: 4
+      replicas: 1
       restart_policy:
         condition: any
       update_config: 
         parallelism: 2
         delay: 15s
     build: .
-    image: abc12345131/node-app:admin
+    image: george-hu77/admin---docker
     volumes: 
       - upload-files:/home/nodejs/server/public/upload
     command: npm run start

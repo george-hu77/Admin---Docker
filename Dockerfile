@@ -1,4 +1,4 @@
-FROM node：14.17
+FROM node
 RUN mkdir -p /home/nodejs/server
 COPY ./server /home/nodejs/server
 WORKDIR /home/nodejs/server
