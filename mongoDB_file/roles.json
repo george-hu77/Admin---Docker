@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "5e0d7292bd72914ee8e714d4"
+  },
+  "name": "test",
+  "auth_time": 1625485212208,
+  "auth_name": "admin",
+  "create_time": 1554639521749,
+  "menus": [
+    "/category",
+    "/home"
+  ]
+},{
+  "_id": {
+    "$oid": "5e171d55d59eb648d4ed66a8"
+  },
+  "menus": [
+    "/home",
+    "/products",
+    "/category",
+    "/product",
+    "/charts/pie"
+  ],
+  "name": "test",
+  "create_time": 1578573141547,
+  "auth_name": "admin",
+  "auth_time": 1625256652789
+},{
+  "_id": {
+    "$oid": "5e175a134bce5e36d48fb4db"
+  },
+  "menus": [
+    "/home",
+    "/products",
+    "/category",
+    "/product",
+    "/user",
+    "/role"
+  ],
+  "name": "manager",
+  "create_time": 1578588691768,
+  "auth_name": "admin",
+  "auth_time": 1625503462111
+},{
+  "_id": {
+    "$oid": "5e188bb874c89321209fedda"
+  },
+  "menus": [
+    "/home",
+    "/product",
+    "/category",
+    "/products"
+  ],
+  "name": "employee",
+  "create_time": 1578666936202,
+  "auth_name": "admin",
+  "auth_time": 1651332585859
+},{
+  "_id": {
+    "$oid": "60e3379a32d51e14a0f1915f"
+  },
+  "menus": [
+    "/home",
+    "/product",
+    "/category",
+    "/products",
+    "/user",
+    "/role",
+    "/charts",
+    "/charts/bar",
+    "/charts/line",
+    "/charts/pie"
+  ],
+  "name": "manager",
+  "create_time": 1625503642343,
+  "__v": 0,
+  "auth_name": "kevin1",
+  "auth_time": 1625805435821
+}]

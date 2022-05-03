@@ -1,0 +1,232 @@
+[{
+  "_id": {
+    "$oid": "5e12b8bce31bb727e4b0e348"
+  },
+  "parentId": "0",
+  "name": "household applicance",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e130e60e31bb727e4b0e34b"
+  },
+  "parentId": "0",
+  "name": "cellphone",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e130ec7e31bb727e4b0e34c"
+  },
+  "parentId": "0",
+  "name": "wash machine",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e1346533ed02518b4db0cd7"
+  },
+  "parentId": "0",
+  "name": "book",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e13467e3ed02518b4db0cd8"
+  },
+  "parentId": "0",
+  "name": "cups",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e1346c83ed02518b4db0cd9"
+  },
+  "parentId": "0",
+  "name": "paper",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e144dc7297c1138787e96ab"
+  },
+  "parentId": "0",
+  "name": "fashion",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e144de1297c1138787e96ac"
+  },
+  "parentId": "0",
+  "name": "toy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5e16e37e49dc6b38d018fe28"
+  },
+  "parentId": "0",
+  "name": "phone",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc0bf33eb957f1b94f4a959"
+  },
+  "parentId": "0",
+  "name": "pharmacy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc0bfa4eb957f1b94f4a95a"
+  },
+  "parentId": "0",
+  "name": "food",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc0bfd7eb957f1b94f4a95c"
+  },
+  "parentId": "0",
+  "name": "frute",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc30a1833fe4221c4546275"
+  },
+  "parentId": "5e12b8bce31bb727e4b0e348",
+  "name": "refrigerator",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc30a4133fe4221c4546276"
+  },
+  "parentId": "5e12b8bce31bb727e4b0e348",
+  "name": "microwave",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc30a4a33fe4221c4546277"
+  },
+  "parentId": "5e12b8bce31bb727e4b0e348",
+  "name": "电饭煲",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc30a5133fe4221c4546278"
+  },
+  "parentId": "5e12b8bce31bb727e4b0e348",
+  "name": "wash machine",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc30a6533fe4221c4546279"
+  },
+  "parentId": "5e12b8bce31bb727e4b0e348",
+  "name": "消毒碗柜",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc30a6f33fe4221c454627a"
+  },
+  "parentId": "5e12b8bce31bb727e4b0e348",
+  "name": "电视",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc30a7a33fe4221c454627b"
+  },
+  "parentId": "5e12b8bce31bb727e4b0e348",
+  "name": "抽油烟机",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc5a5ff4870c82a702c5efd"
+  },
+  "parentId": "0",
+  "name": "bbb",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc5b24b4870c82a702c5f05"
+  },
+  "parentId": "0",
+  "name": "2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc5b2ae4870c82a702c5f06"
+  },
+  "parentId": "0",
+  "name": "34",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc5b2b84870c82a702c5f07"
+  },
+  "parentId": "5fc5b2ae4870c82a702c5f06",
+  "name": "222",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc74b650dd9b10798413162"
+  },
+  "parentId": "5e12b8bce31bb727e4b0e348",
+  "name": "电脑",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fc9e7cc618171388c09b7eb"
+  },
+  "parentId": "0",
+  "name": "test0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c269731b9baf0ab816dd52"
+  },
+  "parentId": "0",
+  "name": "test1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c26c9e1b9baf0ab816dd53"
+  },
+  "parentId": "0",
+  "name": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60c26e0d1b9baf0ab816dd54"
+  },
+  "parentId": "0",
+  "name": "1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60cc16241b4b8d2ab85c0ed0"
+  },
+  "parentId": "0",
+  "name": "aaa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60cc16471b4b8d2ab85c0ed1"
+  },
+  "parentId": "60c269731b9baf0ab816dd52",
+  "name": "二级分类38",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ccb1dd1b4b8d2ab85c0ed2"
+  },
+  "parentId": "0",
+  "name": "bbb",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60edbe95fcc55a23fc1cf79a"
+  },
+  "parentId": "5e130e60e31bb727e4b0e34b",
+  "name": "家用电器6",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626d56b65e0974836c2ad674"
+  },
+  "parentId": "5e130ec7e31bb727e4b0e34c",
+  "name": "6升",
+  "__v": 0
+}]

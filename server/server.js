@@ -19,13 +19,24 @@ const cookieParser = require('cookie-parser')
 app.use(cookieParser())
 // 声明使用路由器中间件
 const indexRouter = require('./routers')
-app.use('/', indexRouter)  //
+app.use('/api', indexRouter)  //
+
+const { 
+  MONGO_USER,
+  MONGO_PASSWORD,
+  MONGO_IP,
+  MONGO_PORT,
+  //REDIS_IP,
+  //REDIS_PORT,
+  SESSION_SECRET
+} = require('./config/config')
+
 
 const fs = require('fs')
 
 // 必须在路由器中间之后声明使用
-app.use((req, res) => {
-  fs.readFile(__dirname + '/public/index.html', (err, data)=>{
+/*app.use((req, res) => {
+  fs.readFile(__dirname + '../client/index.html', (err, data)=>{
     if(err){
       console.log(err)
       res.send('后台错误')
@@ -37,17 +48,28 @@ app.use((req, res) => {
     }
   })
 })
-
+*/
 // 通过mongoose连接数据库
-mongoose.connect('mongodb://localhost/server_db2', {useNewUrlParser: true})
+//mongoose
+let mongoUrl
+if(process.env.MONGO_IP) {
+  mongoUrl = `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_IP}:${MONGO_PORT}/react-app?authSource=admin`
+} else {
+  mongoUrl = 'mongodb://localhost:27017/react-app'
+}
+
+const connectWithRetry = () => {
+  mongoose.connect(mongoUrl, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  })
   .then(() => {
-    console.log('连接数据库成功!!!')
-    // 只有当连接上数据库后才去启动服务器
-    app.listen('5000', () => {
-      console.log('服务器启动成功, 请访问: http://localhost:5000')
-    })
+    console.log('MongoDB is connected!')
   })
   .catch(error => {
-    console.error('连接数据库失败', error)
+    console.error(`Failed to connect mongoDB at ${mongoUrl}!`, error)
+    setTimeout(connectWithRetry, 5000)
   })
+}
 
+connectWithRetry()
