@@ -9,7 +9,7 @@ services:
         parallelism: 2
         delay: 15s
     build: .
-    image: george-hu77/admin---docker
+    image: georgefront2022/admin-docker:latest
     volumes: 
       - upload-files:/home/nodejs/server/public/upload
     command: npm run start
