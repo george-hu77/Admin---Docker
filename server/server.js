@@ -53,7 +53,7 @@ const fs = require('fs')
 //mongoose
 let mongoUrl
 if(process.env.MONGO_IP) {
-  mongoUrl = `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_IP}:${MONGO_PORT}/react-app?authSource=admin`
+  mongoUrl = `mongodb://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_IP}:${MONGO_PORT}/react-app`
 } else {
   mongoUrl = 'mongodb://localhost:27017/react-app'
 }
@@ -65,6 +65,9 @@ const connectWithRetry = () => {
   })
   .then(() => {
     console.log('MongoDB is connected!')
+    app.listen('5000', () => {
+      console.log('服务器启动成功, 请访问: http://localhost:5000')
+    })
   })
   .catch(error => {
     console.error(`Failed to connect mongoDB at ${mongoUrl}!`, error)
