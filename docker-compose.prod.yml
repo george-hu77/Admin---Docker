@@ -1,14 +1,6 @@
 version: "3"
 services:
   server:
-    deploy:
-      replicas: 1
-      restart_policy:
-        condition: any
-      update_config: 
-        parallelism: 2
-        delay: 15s
-    build: .
     image: georgefront2022/admin-docker:latest
     volumes: 
       - upload-files:/home/nodejs/server/public/upload
